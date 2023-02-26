@@ -1,0 +1,58 @@
+.promo {
+    height: 650px;
+    padding: 21px 0 93px 0;
+    background: url(../img/first_block/bg.jpg) center center / cover no-repeat;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: 90px;
+    }
+    &__header {
+        color: #ffffff;
+        font-family: 'Museo Sans 700 Bold';
+        font-size: 42px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+    &__subheader {
+        color: #ffffff;
+        font-family: 'Museo Sans 500 Medium';
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 0;
+        margin-top: 17px;
+    }
+    &__icons {
+        margin-top: 63px;
+        display: flex;
+        width: 450px;
+        justify-content: space-between;
+        margin-right: 20px;
+        .promo__icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                height: 45px;
+            }
+            .icon_descr {
+                margin-top: 20px;
+                width: 112px;
+                color: #ffffff;
+                font-family: 'Museo Sans 500 Medium';
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+    &__link {
+        margin-top: 18px;
+        color: #ffffff;
+        font-family: 'Museo Sans 500 Medium';
+        font-size: 16px;
+        a {
+            color: #ffffff;
+        }
+    }
+}
