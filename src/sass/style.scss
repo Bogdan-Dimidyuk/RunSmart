@@ -1,1 +1,9 @@
 @import 'variables';
+@import 'blocks/firstBlock';
+@import 'blocks/header';
+@import 'blocks/buttons';
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
