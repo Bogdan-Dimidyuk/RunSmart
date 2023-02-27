@@ -73,5 +73,86 @@
             width: 115px;
             height: 25px;
         }
-    }     
+    }
+    .benefits {
+        padding: 35px 0 45px 0;
+        &__items {
+            margin-top: 30px;
+            .item {
+                width: 165px;
+                .icon {
+                    width: 50px;
+                    height: 50px;
+                }
+                .title {
+                    margin-top: 30px;
+                    font-size: 15px;
+                }
+                .descr {
+                    margin-top: 20px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }   
+}
+@media (max-width: 575px) {
+    .promo {
+        background-image: url(../img/first_block/mobile/adaptation_bg.jpg);
+        &__wrapper {
+            margin-top: 15px;
+            align-items: center;
+        }
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            font-size: 15px;
+            margin-top: 5px;
+        }
+        &__icons {
+            width: 310px;
+            margin-top: 25px;
+            .promo__icon {
+                width: 100px;
+            }        
+        }
+        .button_main {
+            margin-top: 25px;
+        }
+    }
+    .header {
+        width: 300px;
+        margin: 0 auto;
+        &__logo {
+            width: 160px;
+        }
+        &__phone {
+            font-size: 11px;
+        }
+        .button {
+            font-size: 9px;
+            width: 100px;
+            height: 20px;
+        }
+        &__official {
+            display: none;
+        }
+    }
+    .benefits {
+        padding-bottom: 10px;
+        &__items {
+            flex-wrap: wrap;
+            justify-content: center;
+            .item {
+                margin-bottom: 20px;
+                .title {
+                    margin-top: 15px;
+                }
+                .descr {
+                    margin-top: 13px;
+                }
+            }
+        }
+    }
 }
