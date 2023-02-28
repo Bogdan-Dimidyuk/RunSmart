@@ -12,6 +12,15 @@
             margin-top: 20px;
         }
     }
+    .consultation {
+        padding: 70px 0 40px;
+        .title {
+            font-size: 30px;
+        } 
+        &__descr {
+            margin-top: 40px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .promo {
@@ -94,7 +103,12 @@
                 }
             }
         }
-    }   
+    }
+    .consultation {
+        &__descr {
+            font-size: 18px;
+        }
+    }
 }
 @media (max-width: 575px) {
     .promo {
@@ -141,6 +155,9 @@
     }
     .benefits {
         padding-bottom: 10px;
+        .title {
+            font-size: 25px;
+        }
         &__items {
             flex-wrap: wrap;
             justify-content: center;
@@ -153,6 +170,23 @@
                     margin-top: 13px;
                 }
             }
+        }
+    }
+    .consultation {
+        background-image: url(../img/third_block/mobile/adaptation_bg.jpg);
+        padding: 35px 0 20px 0;
+        .title {
+            font-size: 23px;
+            text-align: center;
+        }
+        &__descr {
+            text-align: center;
+            font-size: 17px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        .feed-form {
+            margin: 0 auto;
         }
     }
 }
