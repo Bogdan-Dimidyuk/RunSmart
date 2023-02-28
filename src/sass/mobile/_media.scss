@@ -84,7 +84,7 @@
                     width: 50px;
                     height: 50px;
                 }
-                .title {
+                &__title {
                     margin-top: 30px;
                     font-size: 15px;
                 }
@@ -146,7 +146,7 @@
             justify-content: center;
             .item {
                 margin-bottom: 20px;
-                .title {
+                &__title {
                     margin-top: 15px;
                 }
                 .descr {

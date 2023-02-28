@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+    color: #0d0d0d;
+    font-family: 'Museo Sans 700 Bold';
+    font-size: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    &_left {
+        color: #ffffff;
+        font-size: 36px;
+        text-align: left;
+    }
+}

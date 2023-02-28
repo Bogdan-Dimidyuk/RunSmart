@@ -2,13 +2,6 @@
     min-height: 420px;
     background-color: #f6f6f6;
     padding: 70px 0 95px 0;
-    &__title {
-        text-align: center;
-        color: #0d0d0d;
-        font-family: 'Museo Sans 700 Bold';
-        font-size: 30px;
-        margin-bottom: 0;
-    }
     &__items {
         display: flex;
         justify-content: space-between;
@@ -19,7 +12,7 @@
                 display: block;
                 margin: 0 auto;
             }
-            .title {
+            &__title {
                 margin-top: 38px;
                 color: #0d0d0d;
                 font-family: 'Museo Sans 700 Bold';
