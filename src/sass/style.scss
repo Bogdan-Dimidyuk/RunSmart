@@ -6,10 +6,12 @@
 @import 'blocks/buttons';
 @import 'blocks/benefits';
 @import 'blocks/consultation';
+@import 'blocks/carousel';
 @import 'mobile/media';
 @import 'mobile/mediaCont';
 
 .container {
+    position: relative;
     max-width: 950px;
     margin: 0 auto;
 }
