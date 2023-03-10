@@ -7,6 +7,9 @@
         width: 750px;
         margin: 0 auto;
     }
+    .tns-outer [data-action=stop] {
+        display: none;
+    }
     .prev, .next {
         position: absolute;
         top: 50%;

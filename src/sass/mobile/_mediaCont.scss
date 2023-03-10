@@ -1,11 +1,51 @@
+@media (max-width: 1100px) {
+    .container {
+        width: 900px;
+    }
+}
 @media (max-width: 991px) {
     .container {
         width: 750px;
     }
 }
+@media (max-width: 900px) {
+    .container {
+        width: 700px;
+    }
+}
 @media (max-width: 767px) {
     .container {
-        width: 520px;
+        width: 650px;
+    }
+}
+@media (max-width: 737px) {
+    .container {
+        width: 620px;
+    }
+}
+@media (max-width: 707px) {
+    .container {
+        width: 590px;
+    }
+}
+@media (max-width: 677px) {
+    .container {
+        width: 560px;
+    }
+}
+@media (max-width: 647px) {
+    .container {
+        width: 530px;
+    }
+}
+@media (max-width: 610px) {
+    .container {
+        width: 500px;
+    }
+}
+@media (max-width: 580px) {
+    .container {
+        width: 470px;
     }
 }
 @media (max-width: 575px) {

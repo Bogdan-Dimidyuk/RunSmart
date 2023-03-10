@@ -2,10 +2,51 @@ const slider = tns({
     container: '.carousel__inner',
     items: 1,
     slideBy: 'page',
-    autoplay: false,
     controls: false,
     nav: false,
-    speed: 700
+    speed: 700,
+    responsive: {
+        320: {
+            autoplay: true
+        },
+        545: {
+            fixedWidth: 320
+        },
+        576: {
+            fixedWidth: 470
+        },
+        580: {
+            fixedWidth: 500
+        },
+        610: {
+            fixedWidth: 530
+        },
+        647: {
+            fixedWidth: 560
+        },
+        677: {
+            fixedWidth: 590
+        },
+        707: {
+            fixedWidth: 620
+        },
+        738: {
+            fixedWidth: 650
+        },
+        768: {
+            fixedWidth: 700,
+            autoplay: false
+        },
+        900: {
+            fixedWidth: 750
+        },
+        992: {
+            fixedWidth: 900
+        },
+        1100: {
+            fixedWidth: false
+        }
+    }
 });
 document.querySelector('.prev').addEventListener('click', function () {
     slider.goTo('prev');
