@@ -43,6 +43,23 @@
             }
         }
     }
+    .reviews {
+        &__content {
+            margin-top: 35px;
+        }
+        &__block:nth-child(-n+2) {
+            margin-bottom: 50px;
+        }
+        &__block {
+            align-items: center;
+            &_img {
+                margin-right: 30px;
+            }
+            &_info {
+                font-size: 14px;
+            }
+        }
+    }
 }
 @media (max-width: 767px) {
     .promo {
@@ -143,6 +160,7 @@
         }
     }
     .catalog {
+        padding-bottom: 50px;
         &__tabs {
             flex-wrap: wrap;
             justify-content: center;
@@ -150,6 +168,21 @@
         &__tab {
             width: 350px;
             margin-bottom: 10px;
+        }
+        &__content {
+            justify-content: center;
+        }
+    }
+    .reviews {
+        &__block {
+            flex-direction: column;
+            &_img {
+                margin-right: 0;
+            }
+            &_text {
+                margin-top: 15px;
+                text-align: center;
+            }
         }
     }
 }
@@ -240,7 +273,6 @@
         }
     }
     .catalog {
-        padding-bottom: 50px;
         &__tabs {
             margin-top: 40px;
         }
@@ -248,8 +280,10 @@
             width: 275px;
         }
         &__content {
-            justify-content: center;
             margin-top: 30px;
         }
+    }
+    .reviews {
+        padding-bottom: 20px;
     }
 }

@@ -1,0 +1,35 @@
+.reviews {
+    padding-bottom: 70px;
+    &__content {
+        margin-top: 70px;
+    }
+    &__block:nth-child(-n+2) {
+        margin-bottom: 100px;
+    }
+    &__block {
+        display: flex;
+        &_img {
+            display: block;
+            width: 169px;
+            height: 169px;
+            margin-right: 60px;
+        }
+        &_title {
+            color: #0d0d0d;
+            font-family: 'Museo Sans 700 Bold';
+            font-size: 18px;
+        }
+        &_subtitle {
+            margin-top: 10px;
+            color: #646464;
+            font-family: 'Museo Sans 500 Medium';
+            font-size: 14px;
+        }
+        &_info {
+            margin-top: 19px;
+            color: #0d0d0d;
+            font-family: 'Museo Sans 500 Medium';
+            font-size: 16px;
+        }
+    }
+}
