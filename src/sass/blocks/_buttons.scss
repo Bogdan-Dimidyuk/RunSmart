@@ -9,6 +9,10 @@
     border-radius: 5px;
     background-color: $main_color;
     border: none;
+    &:hover {
+        box-shadow: 3px 3px 20px orange;
+        background-color: #f58442;
+    }
     &_main {
         margin-top: 65px;
         width: 300px;

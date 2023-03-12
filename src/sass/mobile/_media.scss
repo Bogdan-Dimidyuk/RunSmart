@@ -185,6 +185,29 @@
             }
         }
     }
+    .footer {
+        &__info {
+            width: 320px;
+            height: 220px;
+            padding: 30px 40px 20px 40px;
+            transform: translateX(0%);
+            left: 0;
+        }
+        &__addr, &__phone {
+            font-size: 17px;
+            line-height: 17px;
+        }
+        &__social {
+            width: 190px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                height: 21px;
+            }
+        }
+    }
 }
 @media (max-width: 575px) {
     .promo {
