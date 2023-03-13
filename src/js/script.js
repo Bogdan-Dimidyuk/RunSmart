@@ -84,3 +84,33 @@ $('.button_mini').each(function(i) {
         $('.overlay, #order').fadeIn('fast');
     });
 });
+// validation
+function validateForms(form) {
+    $(form).validate({
+        rules: {
+            name: {
+                required: true,
+                minlength: 2
+            },
+            phone: 'required',
+            email: {
+                required: true,
+                email: true
+            }
+        },
+        messages: {
+            name: {
+                required: "Пожалуйста, введите свое имя",
+                minlength: jQuery.validator.format("Минимальное количество символов: {0}")
+            },
+            phone: "Пожалуйста, введите свой номер телефона",
+            email: {
+                required: "Нам нужен ваш email для контакта с вами",
+                email: "Ваш email должен быть в таком формате: name@domain.com"
+            }
+        }
+    });
+}
+validateForms('#consultation-form');
+validateForms('#consultation form');
+validateForms('#order form');

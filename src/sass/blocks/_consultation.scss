@@ -9,4 +9,15 @@
         text-align: left;
         margin-top: 80px;
     }
+    .error {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-family: 'Museo Sans 500 Medium';
+        color: $main_color;
+        border: 2px solid $main_color;
+    }
+    label.error {
+        border: none;
+    }
 }
